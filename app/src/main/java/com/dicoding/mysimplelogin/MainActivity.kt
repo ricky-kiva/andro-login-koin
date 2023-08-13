@@ -9,7 +9,7 @@ import org.koin.android.ext.android.inject
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-    private val userRepository: UserRepository by inject()
+    private val userRepository: UserRepository by inject() // inject to a `field`. need to be `val`
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
