@@ -48,4 +48,5 @@ dependencies {
     // Koin: Dependency Injection
     implementation "io.insert-koin:koin-core:3.3.2"
     implementation "io.insert-koin:koin-android:3.3.2"
+    androidTestImplementation "io.insert-koin:koin-test-junit4:3.3.2"
 }
