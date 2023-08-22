@@ -50,4 +50,8 @@ dependencies {
     implementation "io.insert-koin:koin-core:3.3.2"
     implementation "io.insert-koin:koin-android:3.3.2"
     androidTestImplementation "io.insert-koin:koin-test-junit4:3.3.2"
+
+    // Jetpack Security: SharedPreference encryption
+    implementation "androidx.security:security-crypto:1.1.0-alpha02"
+    implementation 'com.scottyab:secure-preferences-lib:0.1.7'
 }

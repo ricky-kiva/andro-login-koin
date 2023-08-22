@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.dicoding.mysimplelogin">
+
+    <!-- run Jetpack Security on below API 23 -->
+    <uses-sdk tools:overrideLibrary="androidx.security"/>
 
     <application
         android:name=".MyApplication"
